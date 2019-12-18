@@ -8,11 +8,11 @@
   "tvOS" : [
 
   ],
-  "commitish" : "59d11c9ad0f54c69201217095c6a2db9d165f161",
+  "commitish" : "675040e2c6a7c289e13131299318064cffd82841",
   "iOS" : [
     {
       "name" : "GSKit",
-      "hash" : "e630914bdc20d529916edf022ee2287b0496b436c8cdd1af7bd6e7c8f21fbbb7",
+      "hash" : "b00fc69ed4cf7761d1d43eba075e84a72330d1e0aef553020473637cd0342be3",
       "swiftToolchainVersion" : "5.0 (swiftlang-1001.0.69.5 clang-1001.0.46.3)"
     }
   ]
