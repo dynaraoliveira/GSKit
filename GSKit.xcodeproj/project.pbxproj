@@ -14,6 +14,7 @@
 		A5D323F223A1F18F00BDC84B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5D323F023A1F18F00BDC84B /* Main.storyboard */; };
 		A5D323F423A1F19100BDC84B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5D323F323A1F19100BDC84B /* Assets.xcassets */; };
 		A5D323F723A1F19100BDC84B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5D323F523A1F19100BDC84B /* LaunchScreen.storyboard */; };
+		A5D3241223A9DAE800BDC84B /* GSKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5D323D923A1F11300BDC84B /* GSKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5D3241223A9DAE800BDC84B /* GSKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,6 +56,7 @@
 				A5D323DB23A1F11300BDC84B /* GSKit */,
 				A5D323EB23A1F18F00BDC84B /* Example */,
 				A5D323DA23A1F11300BDC84B /* Products */,
+				A5D3241123A9DAE800BDC84B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -87,6 +90,13 @@
 				A5D323F823A1F19100BDC84B /* Info.plist */,
 			);
 			path = Example;
+			sourceTree = "<group>";
+		};
+		A5D3241123A9DAE800BDC84B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -371,11 +381,13 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = GSKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.dynararico.GSKit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -398,6 +410,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = GSKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
